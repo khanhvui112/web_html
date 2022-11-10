@@ -111,3 +111,6 @@ html, body {
   left: 0;
   top: 15px;
 }
+#name {
+  width: 200px;
+}
