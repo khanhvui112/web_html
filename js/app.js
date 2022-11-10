@@ -5,9 +5,16 @@ $(document).ready(function () {
         $('.btn-left').remove();
     });
     $('.btn-change-text').on('click', function () {
-        let text = $('#name').val();
-        $('body > article').remove();
-        $('.title > h1').text(text);
+        let text = $('#name').val().toString();
+        $('.text-change').text(text+''.toUpperCase());
     });
+    $('.btn-remove-text').on('click', function () {
+        $('.title').remove()
+    });
+    $('.btn-hide').on('click', function () {
+        $('.btn-left').remove()
+    });
+    
+    
     
 })
