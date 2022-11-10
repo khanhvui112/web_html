@@ -83,6 +83,9 @@ html, body {
 
 
   .title {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
     font-family: "Cairo";
     text-align: center;
     color: #fff;
