@@ -111,6 +111,9 @@ html, body {
   left: 0;
   top: 15px;
 }
+.title {
+  z-index: 999;
+}
 #name {
   width: 200px;
   margin-top: 81px;
