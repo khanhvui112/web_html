@@ -111,7 +111,7 @@ html, body {
   left: 0;
   top: 15px;
 }
-.title {
+.btn-left {
   z-index: 999;
 }
 #name {
