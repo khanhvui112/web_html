@@ -14,6 +14,9 @@ $(document).ready(function () {
     $('.btn-hide').on('click', function () {
         $('.btn-left').remove()
     });
+    $('.btn-bg-black').on('click', function () {
+        $('body').attr('style','background: black');
+    });
     
     
     
